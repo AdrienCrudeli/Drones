@@ -21,8 +21,8 @@ pick in advance.
 
 `Deplacement.py` holds the geometric primitives, each applied to the whole set of coordinates:
 
-- `X`, `Y`, `Z` — translation along one axis
-- `rotX`, `rotY`, `rotZ` — rotation around one axis, by direct application of the rotation matrix
+- `X`, `Y`, `Z` :translation along one axis
+- `rotX`, `rotY`, `rotZ` :rotation around one axis, by direct application of the rotation matrix
 
 `DéplacementVectoriel.py` builds on these to move the swarm along a vector rather than axis by
 axis.
